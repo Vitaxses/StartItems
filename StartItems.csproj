@@ -1,11 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <!-- Change this to the path of your modded HK installation -->
     <HollowKnightRefs></HollowKnightRefs>
-
     <ExportDir>$(MSBuildProjectDirectory)/Export</ExportDir>
-    <!-- Uncomment this to generate a documentation file to be included with the mod -->
-    <!--<DocumentationFile>$(OutputPath)/$(AssemblyTitle).xml</DocumentationFile>-->
   </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>StartItems</RootNamespace>
