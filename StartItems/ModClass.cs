@@ -9,7 +9,7 @@ namespace StartItems
     {
         internal static StartItems Instance;
 
-        public bool ToggleButtonInsideMenu => throw new NotImplementedException();
+        public bool ToggleButtonInsideMenu => false;
 
         public override string GetVersion() => "v0.1";
 

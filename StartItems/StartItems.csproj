@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <!-- Change this to the path of your modded HK installation -->
-    <HollowKnightRefs>steamapps/common/Hollow Knight/hollow_knight_Data/Managed</HollowKnightRefs>
+    <HollowKnightRefs></HollowKnightRefs>
+
+    <ExportDir>$(MSBuildProjectDirectory)/Export</ExportDir>
     <!-- Uncomment this to generate a documentation file to be included with the mod -->
     <!--<DocumentationFile>$(OutputPath)/$(AssemblyTitle).xml</DocumentationFile>-->
   </PropertyGroup>
@@ -55,9 +57,6 @@
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>$(HollowKnightRefs)/Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="GalaxyCSharp">
-      <HintPath>$(HollowKnightRefs)/GalaxyCSharp.dll</HintPath>
     </Reference>
     <Reference Include="MMHOOK_Assembly-CSharp">
       <HintPath>$(HollowKnightRefs)/MMHOOK_Assembly-CSharp.dll</HintPath>
@@ -136,9 +135,6 @@
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
       <HintPath>$(HollowKnightRefs)/UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>$(HollowKnightRefs)/UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
       <HintPath>$(HollowKnightRefs)/UnityEngine.AssetBundleModule.dll</HintPath>
